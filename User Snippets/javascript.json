@@ -19,9 +19,56 @@
             "* title: ${title:Enter title}",
             "* date: ${date:Insert date string (Ctrl+Shift+A)}",
 			"! --------------------------------",
-			"TODO ",
-			"TODO",
+			"* Update Set:",
+			"* NOTES:",
+			"! --------------------------------",
 			"*/",
         ]
-    }
+    },
+	"New Update": {
+        "prefix": "newline",
+        "body": [
+			"/*",
+			"! ----------------------------------------------------------------------------------------------------------------------------------------------------------------",
+            "` Date/Time: ${date:Insert date string (Ctrl+Shift+I)}",
+			"` NOTES:",
+			"! ----------------------------------------------------------------------------------------------------------------------------------------------------------------",
+			"*/",
+        ]
+    },
+	"Comment Info": {
+        "prefix": "comments",
+        "body": [
+			"// ` Title",
+			"/*",
+			"! alert",
+			"` info",
+			"* info",
+			"// removed",
+			"# note",
+			"? question",
+			"todo highlight",
+			"@ highlight",
+			"done compelte",
+			"DONE complete",
+			"*/",
+        ]
+    },
+
 }
+
+
+
+
+/*
+! alert
+` info
+* info
+// removed
+# note
+? question
+todo highlight
+@ highlight
+done compelte
+DONE complete
+*/
